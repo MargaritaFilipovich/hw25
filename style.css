@@ -1,0 +1,35 @@
+.square{
+    display: flex;
+    justify-content: center;
+}
+
+.square1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.square1:nth-child(1) {
+    background-color: rgb(255, 158, 158);
+    width: 200px;
+    height: 200px;
+    top: 60px;
+    left: 630px;
+    z-index: 1;
+}
+.square1:nth-child(2) {
+    background-color: rgb(156, 120, 255);
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+    top: 200px;
+}
+.square1:nth-child(3) {
+    background-color: rgb(169, 255, 165);
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    right: 650px;
+    bottom: 300px;
+}
