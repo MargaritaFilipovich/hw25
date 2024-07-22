@@ -1,6 +1,7 @@
 .square{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .square1{
@@ -30,6 +31,6 @@
     width: 200px;
     height: 200px;
     z-index: 2;
-    right: 650px;
-    bottom: 300px;
+    right: 600px;
+    top: 300px;
 }
