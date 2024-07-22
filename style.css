@@ -16,7 +16,7 @@
     width: 200px;
     height: 200px;
     top: 60px;
-    left: 630px;
+    left: 570px;
     z-index: 1;
 }
 .square1:nth-child(2) {
@@ -31,6 +31,6 @@
     width: 200px;
     height: 200px;
     z-index: 2;
-    right: 600px;
+    right: 570px;
     top: 300px;
 }
